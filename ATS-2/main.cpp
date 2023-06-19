@@ -10,6 +10,8 @@ int main()
     cout<<"Ingrese el valor de b: "<<endl;
     cin>>b;
     expresion= (a / b) +1;
+    cout.precision(2);
+
     cout<<"El resultado de la expresion es: "<<expresion<<endl;
     return 0;
 }
